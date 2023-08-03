@@ -7,7 +7,7 @@ $data = [];
 $msg = "";
 
 
-/* OBSOLETO
+
 if (isset($_POST["update"])) {
     $success = true;
     switch ($_POST["update"]) {
