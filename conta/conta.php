@@ -1,9 +1,9 @@
 <?php if (!isset($_SESSION["UserID"])) { ?>
-    <form class="modal fade" id="login" tabindex="-1" ajax>
-        <div class="modal-dialog">
-            <div class="modal-content border-success">
+    <form class="modal" id="login" tabindex="-1" ajax>
+        <div class="modal">
+            <div class="modal">
                 <div class="modal-header">
-                    <h5 class="modal-title">Fazer Login</h5>
+                    <h5 class="modal">Fazer Login</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                 </div>
                 <div class="modal-body">
