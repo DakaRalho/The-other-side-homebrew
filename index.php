@@ -414,7 +414,7 @@ Sirva acompanhado de carne-de-sol frita ou assada.
     })
 </script>
 <?php
-/*
+
 <?= $gclient ? $gclient->createAuthUrl() : ""; ?>
 <div id="g_id_onload"
      data-client_id="209829554208-1d5agmucudbmmbu9c5r4pjcggpg1t975.apps.googleusercontent.com"
