@@ -313,7 +313,7 @@ if (isset($_SESSION["UserID"])) { ?>
                         </div>
                         <div class="warning m-2"></div>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal">
                         <button type="submit" class="btn btn-outline-success w-100">Atualizar</button>
                     </div>
                 </div>
