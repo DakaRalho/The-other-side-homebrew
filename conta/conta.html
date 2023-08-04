@@ -1,1 +1,37 @@
-...
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Autenticação</title>
+    <!-- Inclua aqui suas referências a CSS e JavaScript, se necessário -->
+</head>
+<body>
+
+<?php if (!isset($_SESSION["UserID"])) { ?>
+    <form class="modal fade" id="login" tabindex="-1" ajax>
+        <!-- Seu formulário de login aqui -->
+    </form>
+    
+    <form class="modal fade" id="passr" tabindex="-1" method="post">
+        <!-- Seu formulário de recuperação de senha aqui -->
+    </form>
+    
+    <form class="modal fade" id="cadastrar" tabindex="-1" aria-hidden="true" method="post">
+        <!-- Seu formulário de cadastro aqui -->
+    </form>
+<?php } ?>
+
+<?php if (isset($_SESSION["UserID"])) { ?>
+    <div class="modal fade" id="perfil" tabindex="-1" aria-label="Perfil Modal" aria-hidden="true">
+        <!-- Seção de perfil de usuário -->
+    </div>
+    
+    <div id="updateforms">
+        <!-- Formulário para atualização de informações da conta -->
+    </div>
+<?php } ?>
+
+<!-- Inclua aqui suas referências a scripts JavaScript, se necessário -->
+
+</body>
+</html>
+
