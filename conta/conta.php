@@ -2,7 +2,7 @@
     <form class="modal" id="login" tabindex="-1" ajax>
         <div class="modal">
             <div class="modal">
-                <div class="modal-header">
+                <div class="modal">
                     <h5 class="modal">Fazer Login</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                 </div>
