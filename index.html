@@ -1,26 +1,4 @@
-<?php
 
-
-require_once "./config/includes.php";
-header("X-Robots-Tag: all");
-if (isset($_POST["status"])) {
-	
-	if ($_POST["status"] == 'roll') {
-		$dado = cleanstring($_POST["dado"], 50);
-		$dano = intval(minmax($_POST["dano"], 0, 1));
-		if (ClearRolar($dado)) {
-			$data["success"] = true;
-			$data = RolarMkII($dado, $dano);
-		} else {
-			$data = ClearRolar($dado, true);
-		}
-		$data["dado"] = $dado;
-		echo json_encode($data);
-		exit;
-	}
-}
-
-?>
 <!doctype html>
 <!--
 kkRick#7849
